@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Integrador Desarrollo Web</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://kit.fontawesome.com/2240dcfd9d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="./images/logo.png" alt="HealthPlan Logo">
+
+            <ul class="nav-content">
+                <a href="#inicio"><li>Inicio</li></a>
+                <a href="#planes"><li>Planes</li></a>
+                <a href="#nosotros"><li>Nosotros</li></a>
+                <a href="./login.html"><li class="nav__user">Ingresar</li></a>
+            </ul>
+
+            <button class="hamburguer">
+                <img class="img-mobile" src="./images/icon-hamburger.svg" alt="hamburguer icon">
+            </button>
+        </nav>
+
+        <div class="hero">
+            <h1 class="hero__title">healthplan </h1>
+            <img clas="hero__arrow" src="./images/icon-arrow-down.svg">
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section transform-section" id="inicio">
+            <div class="section-info">
+                <h2 class="section__title">Transforma tu alimentacion</h2>
+                <p class="section__paragraph">Somos HealthPlan, evolucionamos para que puedas mejorar tu alimentación de manera sencilla y sin moverte de tu casa.</p>
+                <a href="#" class="button yellow">Leer más</a>
+            </div>
+            <div class="section-img">
+                <img class="about-img desktop-img" src="./images/desktop/image-transform.jpg" alt="">
+                <img class="about-img mobile-img" src="./images/mobile/image-transform.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="section stand-out-section">
+            <div class="section-img">
+                <img class="stand-img desktop-img" src="./images/desktop/image-stand-out.jpg" alt="">
+                <img class="stand-img mobile-img" src="./images/mobile/image-stand-out.jpg" alt="">
+            </div>
+            <div class="section-info stand__info">
+                <h2 class="section__title">Profesionales te acompañan</h2>
+                <p class="section__paragraph">Nuestros planes de alimentacion especificos para tu objetivo son desarrollados por profesionales de la salud y el deporte.</p>
+                <a href="#" class="button pink">Leer más</a>
+            </div>
+        </section>
+
+        <section class="planes" id="planes">
+            <div class="plan">
+                <img class="plan-img desktop-img" src="./images/desktop/image-graphic-design.jpg" alt="">
+                <img class="plan-img mobile-img" src="./images/mobile/image-graphic-design.jpg" alt="">
+                <div class="plan-text">
+                    <h2 class="plan__title">Planes Regulares</h2>
+                    <p class="plan__paragraph">Accede a una completa biblioteca de planes de manera facil y simple para mejorar tus habitos de alimentacion.</p>
+                </div>
+            </div>
+
+            <div class="plan">
+                <img class="plan-img desktop-img" src="./images/desktop/image-photography.jpg" alt="">
+                <img class="plan-img mobile-img" src="./images/mobile/image-photography.jpg" alt="">
+                <div class="plan-text objetivo-text">
+                    <h2 class="plan__title">Planes Objetivos</h2>
+                    <p class="plan__paragraph paragraph__2">Te brindamos asesoria especifica tanto en alimentacion como en entrenamiento para que puedas alcanzar tus objetivos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profesionales" id="nosotros">
+            <h2 class="profesionales__title" >Profesionales</h2>
+
+            <div class="profesionales-container" >
+                <div class="profesional">
+                    <img class="profesional__img" src="./images/image-carolina.jpg" alt="">
+                    <p class="profesional__text">Especialista en obesidad, trastornos de la alimentación y nutrición.</p>
+                    <div class="profesional-data">
+                        <p class="data__name">Carolina G.</p>
+                        <p class="data__occupation">Licenciada en Nutrición.</p>   
+                    </div>
+                </div>
+                
+                <div class="profesional">
+                    <img class="profesional__img" src="./images/image-ignacio.jpg" alt="">
+                    <p class="profesional__text">Especialista en desarrollo deportivo de alto nivel.</p>
+                    <div class="profesional-data">
+                        <p class="data__name"> Ignacio T.</p>
+                        <p class="data__occupation">Licenciado en Kinesiologia y Profesor de Educación Física.</p>   
+                    </div>
+                </div>
+                
+                <div class="profesional">
+                    <img class="profesional__img" src="./images/image-maria.jpg" alt="">
+                    <p class="profesional__text">Doctora especialista en endocrinología y nutrición. </p>
+                    <div class="profesional-data">
+                        <p class="data__name"> Maria L.</p>
+                        <p class="data__occupation">Médica Endocrinologa.</p>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <div class="galeria-section">
+                <img class="galeria-img desktop-img" src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+                <img class="galeria-img mobile-img" src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+            </div>
+
+            <div class="galeria-section">
+                <img class="galeria-img desktop-img" src="./images/desktop/image-gallery-orange.jpg" alt="">
+                <img class="galeria-img mobile-img" src="./images/mobile/image-gallery-orange.jpg" alt="">
+            </div>
+
+            <div class="galeria-section">
+                <img class="galeria-img desktop-img" src="./images/desktop/image-gallery-cone.jpg" alt="">
+                <img class="galeria-img mobile-img" src="./images/mobile/image-gallery-cone.jpg" alt="">
+            </div>
+
+            <div class="galeria-section">
+                <img class="galeria-img desktop-img" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+                <img class="galeria-img mobile-img" src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <img src="./images/logo.png" alt="HealthPlan Logo">
+        <ul class="footer-links">
+            <li>Inicio</li>
+            <li>Planes</li>
+            <li>Nosotros</li>
+        </ul>
+        <div class="footer-socials">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+    </footer>
+    
+
+</body>
+</html>
